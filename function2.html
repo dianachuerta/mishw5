@@ -1,9 +1,24 @@
-<?php
-function sum(...args) {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Function 2</title>
+</head>
+<body>
+
+    <h1>Function 2: Find the Sum</h1>
+    <p id="result"></p>
+
+    <script>
+        function sum(...args) {
   let sum = 0;
   for (let arg of args) sum += arg;
   return sum;
 }
 
-let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
-?>
+let x = sum(60, 90, 16, 25, 29, 100, 66, 77);
+    </script>
+
+</body>
+</html>
