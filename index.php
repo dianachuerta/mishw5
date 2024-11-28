@@ -17,13 +17,7 @@ foreach ($functions as $function) {
     echo '<a href="' . $function . '.html">' . ucfirst($function) . '</a> ';
 }
 ?>
-
-<a href="function2.html">Function 2</a> 
-<a href="function3.html">Function 3 </a> 
-<a href="function4.html">Function 4</a> 
-<a href="function5.html">Function 5 </a> 
- 
-            
+   
       </div>
             
   </body>
