@@ -1,4 +1,17 @@
-// Function to increment counter
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Function 5</title>
+</head>
+<body>
+
+    <h1>Function 5:Find the Counter</h1>
+    <p id="result"></p>
+
+    <script>
+        // Function to increment counter
 function add() {
   let counter = 0;
   counter += 1;
@@ -10,4 +23,9 @@ add();
 add();
 add();
 
-//The counter should now be 3. But it is 1.
+document.getElementById("result").textContent = "The counter is: " + counter;
+
+    </script>
+
+</body>
+</html>
